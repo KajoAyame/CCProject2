@@ -1,0 +1,60 @@
+; MSB Senior System Architect Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2015-10-11 22:06:55
+type=CustomSchedulingAlgorithm
+testId=1444601214721
+testFile=test.1444601214721.log
+
+[Minute 1]
+rps=47.70
+
+[Minute 2]
+rps=47.60
+
+[Minute 3]
+rps=47.20
+
+[Minute 4]
+rps=47.50
+
+[Minute 5]
+rps=47.60
+
+[Minute 6]
+rps=47.40
+
+[Minute 7]
+rps=42.60
+
+[Minute 8]
+rps=47.40
+
+[Minute 9]
+rps=42.60
+
+[Minute 10]
+rps=47.00
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-8d89cae8
+instanceId=i-3e3a63d7
+instanceType=m3.medium
+publicHostname=ec2-54-175-253-110.compute-1.amazonaws.com
+ipAddress=54.175.253.110
+
+[Elastic Load Balancer]
+dns=ec2-54-165-81-51.compute-1.amazonaws.com
+
+[Test End]
+time=2015-10-11 22:17:20
+rps=46
+
+[Data Center]
+count=3
+
+; MSB is validating...
+Your submission is received, the token is CD15619Pp23AIDxinghaozTM20151011181840116. Wait and check tpz for the score. 
+; Test finished

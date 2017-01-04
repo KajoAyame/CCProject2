@@ -1,0 +1,70 @@
+; MSB Junior System Architect Test 1
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2015-10-02 01:31:06
+type=junior1
+testId=1443749466053
+testFile=test.1443749466053.log
+
+[Minute 1]
+rps=549.81
+
+[Minute 2]
+rps=1092.16
+
+[Minute 3]
+rps=72.85
+
+[Minute 4]
+rps=369.05
+
+[Minute 5]
+rps=758.35
+
+[Minute 6]
+rps=1300.38
+
+[Minute 7]
+rps=248.91
+
+[Minute 8]
+rps=1729.58
+
+[Minute 9]
+rps=1089.53
+
+[Minute 10]
+rps=986.90
+
+[Minute 11]
+rps=1044.61
+
+[Minute 12]
+rps=545.05
+
+[Minute 13]
+rps=360.85
+
+[Minute 14]
+rps=1083.65
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-8df6ec2e
+instanceType=m3.medium
+publicHostname=ec2-54-172-21-106.compute-1.amazonaws.com
+ipAddress=54.172.21.106
+
+[Elastic Load Balancer]
+dns=project2-1209833117.us-east-1.elb.amazonaws.com
+
+[Test End]
+time=2015-10-02 01:45:09
+rps=802
+ih=0.00
+; Instance-Hour Usage
+
+; MSB is validating...
+; Test finished

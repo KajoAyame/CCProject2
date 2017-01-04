@@ -1,0 +1,197 @@
+; MSB Junior System Architect Test
+; You used your browser to start this test. 
+; The result won't be reported to MSB. 
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2015-10-04 06:43:55
+type=junior
+testId=1443941034899
+testFile=test.1443941034899.log
+
+[Minute 1]
+rps=328.93
+
+[Minute 2]
+rps=792.00
+
+[Minute 3]
+rps=953.16
+
+[Minute 4]
+rps=668.08
+
+[Minute 5]
+rps=599.35
+
+[Minute 6]
+rps=749.51
+
+[Minute 7]
+rps=1543.03
+
+[Minute 8]
+rps=2103.58
+
+[Minute 9]
+rps=2425.36
+
+[Minute 10]
+rps=3078.53
+
+[Minute 11]
+rps=3910.71
+
+[Minute 12]
+rps=4652.75
+
+[Minute 13]
+rps=2022.93
+
+[Minute 14]
+rps=770.61
+
+[Minute 15]
+rps=291.06
+
+[Minute 16]
+rps=385.50
+
+[Minute 17]
+rps=827.50
+
+[Minute 18]
+rps=923.80
+
+[Minute 19]
+rps=931.78
+
+[Minute 20]
+rps=2333.36
+
+[Minute 21]
+rps=2926.46
+
+[Minute 22]
+rps=3032.86
+
+[Minute 23]
+rps=3025.80
+
+[Minute 24]
+rps=3212.60
+
+[Minute 25]
+rps=3698.60
+
+[Minute 26]
+rps=3951.61
+
+[Minute 27]
+rps=3179.40
+
+[Minute 28]
+rps=2408.33
+
+[Minute 29]
+rps=1538.53
+
+[Minute 30]
+rps=856.65
+
+[Minute 31]
+rps=928.71
+
+[Minute 32]
+rps=886.16
+
+[Minute 33]
+rps=937.13
+
+[Minute 34]
+rps=919.86
+
+[Minute 35]
+rps=931.61
+
+[Minute 36]
+rps=2930.03
+
+[Minute 37]
+rps=973.72
+
+[Minute 38]
+rps=949.05
+
+[Minute 39]
+rps=753.28
+
+[Minute 40]
+rps=503.41
+
+[Minute 41]
+rps=723.45
+
+[Minute 42]
+rps=652.61
+
+[Minute 43]
+rps=1012.90
+
+[Minute 44]
+rps=968.60
+
+[Minute 45]
+rps=1584.45
+
+[Minute 46]
+rps=850.60
+
+[Minute 47]
+rps=804.80
+
+[Minute 48]
+rps=711.98
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-56896e82
+instanceType=m3.medium
+publicHostname=ec2-54-210-178-56.compute-1.amazonaws.com
+ipAddress=54.210.178.56
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-2027825183.us-east-1.elb.amazonaws.com
+
+[Test End]
+time=2015-10-04 07:32:04
+rps=1586
+ih=241.88
+; Instance-Hour Usage
+; i-086f88dc	m3.medium	9.02	2015-10-04 06:51:55	2015-10-04 07:00:56
+; i-16ae48c2	m3.medium	0.00	2015-10-04 07:31:10	2015-10-04 07:31:10
+; i-171dfac3	m3.medium	14.45	2015-10-04 06:43:55	2015-10-04 06:58:22
+; i-286a8dfc	m3.medium	20.02	2015-10-04 06:55:58	2015-10-04 07:15:59
+; i-3e7691ea	m3.medium	18.00	2015-10-04 06:57:51	2015-10-04 07:15:51
+; i-3f7691eb	m3.medium	19.00	2015-10-04 06:57:51	2015-10-04 07:16:51
+; i-476d8a93	m3.medium	9.02	2015-10-04 06:53:59	2015-10-04 07:03:00
+; i-511afd85	m3.medium	14.95	2015-10-04 06:43:55	2015-10-04 06:58:52
+; i-5412f580	m3.medium	1.43	2015-10-04 06:43:55	2015-10-04 06:45:21
+; i-5512f581	m3.medium	0.45	2015-10-04 06:43:55	2015-10-04 06:44:22
+; i-8243a456	m3.medium	14.02	2015-10-04 07:09:04	2015-10-04 07:23:05
+; i-8a61865e	m3.medium	10.03	2015-10-04 06:50:24	2015-10-04 07:00:26
+; i-93789f47	m3.medium	11.02	2015-10-04 07:07:00	2015-10-04 07:18:01
+; i-a64ea972	m3.medium	19.00	2015-10-04 07:12:10	2015-10-04 07:31:10
+; i-ab12f57f	m3.medium	2.43	2015-10-04 06:43:55	2015-10-04 06:46:21
+; i-b05dba64	m3.medium	2.00	2015-10-04 07:22:32	2015-10-04 07:24:32
+; i-bc6d8a68	m3.medium	9.02	2015-10-04 06:52:56	2015-10-04 07:01:57
+; i-c96a8d1d	m3.medium	19.02	2015-10-04 06:54:57	2015-10-04 07:13:58
+; i-d044a304	m3.medium	11.02	2015-10-04 07:08:01	2015-10-04 07:19:02
+; i-e542a531	m3.medium	15.00	2015-10-04 07:10:03	2015-10-04 07:25:03
+; i-eca14738	m3.medium	2.00	2015-10-04 07:29:42	2015-10-04 07:31:42
+; i-ed4fa839	m3.medium	21.00	2015-10-04 07:11:01	2015-10-04 07:32:01
+
+; You used your browser to start this test. 
+; The result won't be reported to MSB. 
+; Test finished

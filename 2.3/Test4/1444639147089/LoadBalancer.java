@@ -1,0 +1,145 @@
+
+
+import java.io.IOException;
+import java.net.ServerSocket;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
+import java.util.Random;
+
+
+
+public class LoadBalancer {
+	private static final int THREAD_POOL_SIZE = 4;
+	private final ServerSocket socket;
+	private DataCenterInstance[] instances;
+	private int[] isRunning = {1,1,1};
+	
+	public void setInstance(DataCenterInstance instance, int number) {
+		this.instances[number] = instance;
+	}
+	
+	public void setRunning(int number, int signal) {
+		this.isRunning[number] = signal;
+	}
+	
+	public LoadBalancer(ServerSocket socket, DataCenterInstance[] instances) {
+		this.socket = socket;
+		this.instances = instances;
+	}
+
+	
+	public void start() throws IOException {		
+
+		ExecutorService executorService = Executors.newFixedThreadPool(THREAD_POOL_SIZE);
+
+		URL cpuCheck1 = new URL("http://ec2-54-174-245-17.compute-1.amazonaws.com:8080/info/cpu");
+		URL cpuCheck2 = new URL("http://ec2-54-175-253-59.compute-1.amazonaws.com:8080/info/cpu");
+		URL cpuCheck3 = new URL("http://ec2-54-175-253-93.compute-1.amazonaws.com:8080/info/cpu");
+		
+		BufferedReader br1 = null;
+		BufferedReader br2 = null;
+		BufferedReader br3 = null;
+		
+		float cpuUtilization1 = Float.MAX_VALUE;
+		float cpuUtilization2 = Float.MAX_VALUE;
+		float cpuUtilization3 = Float.MAX_VALUE;
+		
+		System.out.println("Test Start!");
+
+		int currentInstance = 0;
+		int cnt = 0;
+		Random random = new Random();
+		int randomNumber = 0;
+		int[][] excuteArray = {{0,1,2},{0,2,1},{1,0,2},{1,2,0},{2,0,1},{2,1,0}};
+		Runnable requestHandler = null;
+		while (true) {
+			// Read the Cpu utilization of the three instances.
+			br1 = new BufferedReader(new InputStreamReader(cpuCheck1.openStream()));
+			br2 = new BufferedReader(new InputStreamReader(cpuCheck2.openStream()));
+			br3 = new BufferedReader(new InputStreamReader(cpuCheck3.openStream()));
+			
+			boolean isGotten1 = false;
+			while (isGotten1 == false){				
+				try {
+					cpuUtilization1 = getCpuUtilization(br1.readLine());
+					isGotten1 = true;
+				} catch (NullPointerException e) {
+					System.out.println(br1.readLine());
+				} catch (ArrayIndexOutOfBoundsException ex) {
+					System.out.println(br1.readLine());
+				}
+			}
+			
+			boolean isGotten2 = false;
+			while (isGotten2 == false){				
+				try {
+					cpuUtilization2 = getCpuUtilization(br2.readLine());
+					isGotten2 = true;
+				} catch (NullPointerException e) {
+					System.out.println(br2.readLine());
+				} catch (ArrayIndexOutOfBoundsException ex) {
+					System.out.println(br1.readLine());
+				}
+			}
+			
+			boolean isGotten3 = false;
+			while (isGotten3 == false){				
+				try {
+					cpuUtilization3 = getCpuUtilization(br3.readLine());
+					isGotten3 = true;
+				} catch (NullPointerException e) {
+					System.out.println(br3.readLine());
+				} catch (ArrayIndexOutOfBoundsException ex) {
+					System.out.println(br1.readLine());
+				}
+			}
+			
+			br1.close();
+			br2.close();
+			br3.close();
+
+			currentInstance = findUnderUtilization(cpuUtilization1, cpuUtilization2, cpuUtilization3);
+
+			for (cnt = 0; cnt < 100; cnt++)
+			{			
+				randomNumber = random.nextInt(6);				
+				for (int i = 0; i < 3; i++)	{
+					if (isRunning[excuteArray[randomNumber][i]] == 0) { // Don't send the request to the bad one.
+						continue;
+					}
+					requestHandler = new RequestHandler(socket.accept(), instances[excuteArray[randomNumber][i]]);
+					executorService.execute(requestHandler);
+				}
+			}
+		}
+	}
+
+	// Find out the instance that has the lowset Cpu utilization.
+	private int findUnderUtilization(float c1, float c2, float c3) {
+		if (c1 < c2) {
+			if (c1 < c3) {
+				return 0;
+			} else {
+				return 2;
+			}
+		} else if (c2 < c3) {
+			return 1;
+		} else {
+			return 2;
+		}
+	}
+	
+	// Get the string which represents for the Cpu utilization and transfer it to float.
+	private float getCpuUtilization(String input) {
+		Pattern p = Pattern.compile("<");
+		String[] string1 = p.split(input);
+		
+		Pattern p2 = Pattern.compile(">");
+		String[] string2 = p2.split(string1[7]);				
+		
+		float result = Float.parseFloat(string2[1]);
+		
+		return result;
+	}
+	
+}

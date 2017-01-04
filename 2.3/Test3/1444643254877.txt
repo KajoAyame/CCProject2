@@ -1,0 +1,90 @@
+; MSB Senior System Architect Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2015-10-12 09:47:35
+type=Health
+testId=1444643254877
+testFile=test.1444643254877.log
+
+[Minute 1]
+rps=66.50
+
+[Minute 2]
+rps=66.80
+
+[Minute 3]
+rps=66.10
+
+[Minute 4]
+rps=67.10
+
+[Minute 5]
+rps=67.30
+
+[Minute 6]
+rps=48.80
+
+[Minute 7]
+rps=54.40
+
+[Minute 8]
+rps=66.80
+
+[Minute 9]
+rps=66.40
+
+[Minute 10]
+rps=65.30
+
+[Minute 11]
+rps=48.50
+
+[Minute 12]
+rps=54.90
+
+[Minute 13]
+rps=66.80
+
+[Minute 14]
+rps=66.80
+
+[Minute 15]
+rps=66.50
+
+[Minute 16]
+rps=66.90
+
+[Minute 17]
+rps=67.30
+
+[Minute 18]
+rps=67.10
+
+[Minute 19]
+rps=66.80
+
+[Minute 20]
+rps=67.20
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-8d89cae8
+instanceId=i-3684dddf
+instanceType=m3.medium
+publicHostname=ec2-52-3-245-15.compute-1.amazonaws.com
+ipAddress=52.3.245.15
+
+[Elastic Load Balancer]
+dns=ec2-54-152-216-8.compute-1.amazonaws.com
+
+[Test End]
+time=2015-10-12 10:08:24
+rps=63
+
+[Data Center]
+count=3
+
+; MSB is validating...
+Sorry, you could not submit after the due :(. 
+; Test finished

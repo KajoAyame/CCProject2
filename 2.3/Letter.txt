@@ -1,0 +1,39 @@
+Hello Professor!
+
+I am a first year graduate student in ECE.
+In my undergraduate university, I study EE as my major. 
+Barely had I took any CS related coursed, I have weak background in CS.
+So I encountered numerous difficulties in the CC projects.
+Even though it was such a hard time for me,
+I tried my best to get over the difficulties once and once again.
+
+But this time, I am really facing many big difficulties in this project.
+With only 2-month experience in using Java,
+I have no idea about multithreading and thread communication.
+(I don't know whether we must do the project in this way, but I think that is the best way to implement it.)
+I have searched lots of learning materials and do trial and error over and over again.
+If you can check the log of my submissions, you can find that maybe I have been trying over 50 times and staying up for several nights.
+
+Furthermore, in the mean time, I take 15513 - Introduction to Computer Systems and 18641 - Java Smartphone Development,
+which also have the famously heaviest workload in CMU.
+And next week, 15513's mid-term test is just around the corner, which is also a big deal.
+Therefore, I am now in a dilemma.
+
+I don't ask for mercy now, I study as hard as and even harder than many other CMU students.
+Now I study over 15 hours everyday, in order to catch up with the best students and try to be an elite.
+Having solving so many problems, finally I reached the goal as the writeup requires in this project.
+I am happy to see that the rps is eventually beyond the threshold,
+but I am also sad because I miss the due.
+
+So now I wonder if I can still get the score of this project.
+Because I really tried so hard and contributed lots of time in this project.
+Otherwise it would hurt my learning enthusiasm.
+I do really want to start early, but the Java's due is in Wednesday and 513's due is in Thursday,
+The two courses are also hard for me and will occupy me over 2 days.
+That means I have to start doing CC after Thursday.
+I have already arrange the most time (3 and 4 days a week) for CC, but it is still not enough for me.
+I even want to divide a second into two parts to use it.
+
+I will appreciate you if you can understand me.
+
+The attached files are the logs of the two tests which are not graded.

@@ -1,0 +1,410 @@
+///////////////////////// 1 /////////////////////////
+; 2015-10-04T19:09:14+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443985753496
+testFile=test.1443985753496.log
+
+[Minute 1]
+rps=862.87
+
+[Minute 2]
+rps=1152.48
+
+[Minute 3]
+rps=1135.76
+
+[Minute 4]
+rps=1002.71
+
+[Minute 5]
+rps=1100.77
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 2 /////////////////////////
+; 2015-10-04T19:14:17+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443986056791
+testFile=test.1443986056791.log
+
+[Minute 1]
+rps=1027.87
+
+[Minute 2]
+rps=968.93
+
+[Minute 3]
+rps=1012.52
+
+[Minute 4]
+rps=1302.13
+
+[Minute 5]
+rps=824.00
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 3 /////////////////////////
+; 2015-10-04T19:19:20+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443986360082
+testFile=test.1443986360082.log
+
+[Minute 1]
+rps=3666.06
+
+[Minute 2]
+rps=3245.58
+
+[Minute 3]
+rps=3632.13
+
+[Minute 4]
+rps=3650.06
+
+[Minute 5]
+rps=3339.62
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 4 /////////////////////////
+; 2015-10-04T19:24:23+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443986663379
+testFile=test.1443986663379.log
+
+[Minute 1]
+rps=3359.41
+
+[Minute 2]
+rps=3288.68
+
+[Minute 3]
+rps=3656.25
+
+[Minute 4]
+rps=3292.20
+
+[Minute 5]
+rps=3666.88
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 5 /////////////////////////
+; 2015-10-04T19:29:27+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443986966809
+testFile=test.1443986966809.log
+
+[Minute 1]
+rps=3656.45
+
+[Minute 2]
+rps=3676.73
+
+[Minute 3]
+rps=3641.12
+
+[Minute 4]
+rps=3284.61
+
+[Minute 5]
+rps=3647.45
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 6 /////////////////////////
+; 2015-10-04T19:34:30+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443987270119
+testFile=test.1443987270119.log
+
+[Minute 1]
+rps=3674.13
+
+[Minute 2]
+rps=3298.65
+
+[Minute 3]
+rps=3632.39
+
+[Minute 4]
+rps=3675.20
+
+[Minute 5]
+rps=3680.18
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 7 /////////////////////////
+; 2015-10-04T19:39:33+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443987573437
+testFile=test.1443987573437.log
+
+[Minute 1]
+rps=3300.61
+
+[Minute 2]
+rps=3309.56
+
+[Minute 3]
+rps=3639.03
+
+[Minute 4]
+rps=3672.77
+
+[Minute 5]
+rps=3662.73
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 8 /////////////////////////
+; 2015-10-04T19:44:37+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443987876820
+testFile=test.1443987876820.log
+
+[Minute 1]
+rps=3629.70
+
+[Minute 2]
+rps=3616.45
+
+[Minute 3]
+rps=4103.59
+
+[Minute 4]
+rps=4140.10
+
+[Minute 5]
+rps=4087.79
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 9 /////////////////////////
+; 2015-10-04T19:49:40+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443988180050
+testFile=test.1443988180050.log
+
+[Minute 1]
+rps=4117.13
+
+[Minute 2]
+rps=4127.91
+
+[Minute 3]
+rps=4121.16
+
+[Minute 4]
+rps=4076.68
+
+[Minute 5]
+rps=4107.33
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 10 /////////////////////////
+; 2015-10-04T19:54:44+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443988483436
+testFile=test.1443988483436.log
+
+[Minute 1]
+rps=4111.66
+
+[Minute 2]
+rps=4090.38
+
+[Minute 3]
+rps=4080.61
+
+[Minute 4]
+rps=4086.95
+
+[Minute 5]
+rps=4049.45
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+///////////////////////// 11 /////////////////////////
+; 2015-10-04T19:59:47+0000
+; Warmup Test
+; Test launched. Please check every minute for update.
+[Test]
+type=warmup
+testId=1443988786718
+testFile=test.1443988786718.log
+
+[Minute 1]
+rps=4040.62
+
+[Minute 2]
+rps=4065.53
+
+[Minute 3]
+rps=4068.37
+
+[Minute 4]
+rps=4061.51
+
+[Minute 5]
+rps=4055.93
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-30b654e4
+instanceType=m3.medium
+publicHostname=ec2-54-164-86-162.compute-1.amazonaws.com
+ipAddress=54.164.86.162
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-1845683693.us-east-1.elb.amazonaws.com
+
+; Test finished
+/////////////////////////
+
+/////////////////////////

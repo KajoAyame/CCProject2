@@ -1,0 +1,33 @@
+i-3ceae0e9
+ami-b70871d2
+us-east-1b
+InService 
+Remove from Load Balancer
+i-40ebe195
+ami-930970f6
+us-east-1b
+OutOfService 
+Remove from Load Balancer
+i-60d5dfb5
+ami-17087172
+us-east-1b
+InService 
+Remove from Load Balancer
+i-86d5df53
+ami-83166fe6
+us-east-1b
+OutOfService 
+Remove from Load Balancer
+i-8ad4de5f
+ami-dd176eb8
+us-east-1b
+OutOfService 
+Remove from Load Balancer
+
+ami-01215864
+ami-cf2e57aa
+ami-b92158dc
+
+ami-930970f6
+ami-83166fe6
+ami-dd176eb8

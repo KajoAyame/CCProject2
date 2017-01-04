@@ -1,0 +1,192 @@
+; MSB Junior System Architect Test
+; Test launched. Please check every minute for update.
+[Test Start]
+time=2015-10-04 18:04:09
+type=junior
+testId=1443981848887
+testFile=test.1443981848887.log
+
+[Minute 1]
+rps=945.45
+
+[Minute 2]
+rps=968.17
+
+[Minute 3]
+rps=512.20
+
+[Minute 4]
+rps=2099.80
+
+[Minute 5]
+rps=4255.06
+
+[Minute 6]
+rps=4372.40
+
+[Minute 7]
+rps=4342.23
+
+[Minute 8]
+rps=4334.41
+
+[Minute 9]
+rps=4615.75
+
+[Minute 10]
+rps=4643.11
+
+[Minute 11]
+rps=4035.36
+
+[Minute 12]
+rps=2348.51
+
+[Minute 13]
+rps=1456.96
+
+[Minute 14]
+rps=584.31
+
+[Minute 15]
+rps=879.52
+
+[Minute 16]
+rps=1009.66
+
+[Minute 17]
+rps=899.30
+
+[Minute 18]
+rps=882.53
+
+[Minute 19]
+rps=741.79
+
+[Minute 20]
+rps=5609.13
+
+[Minute 21]
+rps=967.68
+
+[Minute 22]
+rps=881.51
+
+[Minute 23]
+rps=695.80
+
+[Minute 24]
+rps=708.90
+
+[Minute 25]
+rps=952.68
+
+[Minute 26]
+rps=892.96
+
+[Minute 27]
+rps=902.19
+
+[Minute 28]
+rps=883.86
+
+[Minute 29]
+rps=4492.30
+
+[Minute 30]
+rps=1026.26
+
+[Minute 31]
+rps=938.90
+
+[Minute 32]
+rps=706.11
+
+[Minute 33]
+rps=879.03
+
+[Minute 34]
+rps=1035.08
+
+[Minute 35]
+rps=915.76
+
+[Minute 36]
+rps=1954.50
+
+[Minute 37]
+rps=3260.28
+
+[Minute 38]
+rps=3793.56
+
+[Minute 39]
+rps=4278.26
+
+[Minute 40]
+rps=3563.91
+
+[Minute 41]
+rps=3823.25
+
+[Minute 42]
+rps=4383.23
+
+[Minute 43]
+rps=4455.70
+
+[Minute 44]
+rps=4550.26
+
+[Minute 45]
+rps=2601.20
+
+[Minute 46]
+rps=844.16
+
+[Minute 47]
+rps=481.83
+
+[Minute 48]
+rps=558.45
+
+[Load Generator]
+awsId=289576477481
+andrewId=xinghaoz
+amiId=ami-312b5154
+instanceId=i-6bf91abf
+instanceType=m3.medium
+publicHostname=ec2-54-88-179-2.compute-1.amazonaws.com
+ipAddress=54.88.179.2
+
+[Elastic Load Balancer]
+dns=loadblancerproject2-910607975.us-east-1.elb.amazonaws.com
+
+[Test End]
+time=2015-10-04 18:52:20
+rps=2186
+ih=327.80
+; Instance-Hour Usage
+; i-086586dc	m3.medium	39.02	2015-10-04 18:12:31	2015-10-04 18:51:32
+; i-2d46a5f9	m3.medium	16.02	2015-10-04 18:35:40	2015-10-04 18:51:41
+; i-43fe1d97	m3.medium	15.32	2015-10-04 18:04:09	2015-10-04 18:19:28
+; i-44fe1d90	m3.medium	23.32	2015-10-04 18:04:09	2015-10-04 18:27:28
+; i-45fe1d91	m3.medium	19.18	2015-10-04 18:04:09	2015-10-04 18:23:20
+; i-46fe1d92	m3.medium	25.42	2015-10-04 18:04:09	2015-10-04 18:29:34
+; i-47fe1d93	m3.medium	0.18	2015-10-04 18:04:09	2015-10-04 18:04:20
+; i-4f67849b	m3.medium	22.03	2015-10-04 18:11:30	2015-10-04 18:33:32
+; i-556a8981	m3.medium	37.03	2015-10-04 18:14:58	2015-10-04 18:52:00
+; i-7258bba6	m3.medium	1.03	2015-10-04 18:50:44	2015-10-04 18:51:46
+; i-7358bba7	m3.medium	1.03	2015-10-04 18:50:44	2015-10-04 18:51:46
+; i-a2779476	m3.medium	29.03	2015-10-04 18:22:33	2015-10-04 18:51:35
+; i-a458bb70	m3.medium	3.03	2015-10-04 18:48:53	2015-10-04 18:51:55
+; i-d257b406	m3.medium	7.03	2015-10-04 18:44:38	2015-10-04 18:51:40
+; i-ee64873a	m3.medium	29.03	2015-10-04 18:13:29	2015-10-04 18:42:31
+; i-f41efd20	m3.medium	10.03	2015-10-04 18:06:28	2015-10-04 18:16:30
+; i-f51efd21	m3.medium	25.03	2015-10-04 18:06:28	2015-10-04 18:31:30
+; i-f5799a21	m3.medium	25.02	2015-10-04 18:26:34	2015-10-04 18:51:35
+
+; MSB is validating...
+; MSB has recorded this test
+Your submission is received, the token is CD15619Pp22AIDxinghaozTM20151004145156058. Wait and check tpz for the score. 
+; Test finished
